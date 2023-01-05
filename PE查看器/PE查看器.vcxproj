@@ -146,6 +146,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="DialogAbout.cpp" />
+    <ClCompile Include="DialogAddShell.cpp" />
+    <ClCompile Include="DialogDelShell.cpp" />
     <ClCompile Include="DialogDetail.cpp" />
     <ClCompile Include="DialogDirectory.cpp" />
     <ClCompile Include="DialogMain.cpp" />
@@ -158,6 +160,8 @@
   <ItemGroup>
     <ClInclude Include="Base.h" />
     <ClInclude Include="DialogAbout.h" />
+    <ClInclude Include="DialogAddShell.h" />
+    <ClInclude Include="DialogDelShell.h" />
     <ClInclude Include="DialogDetail.h" />
     <ClInclude Include="DialogDirectory.h" />
     <ClInclude Include="DialogMain.h" />

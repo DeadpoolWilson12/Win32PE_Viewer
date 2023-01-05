@@ -1,0 +1,24 @@
+﻿extensions: designer.cs generated.cs
+
+extensions: .cs .cpp .h .hpp
+/****************************************************************************************************
+	
+				PE查看器:
+	
+				版本:1.0
+
+				作者:热饭班长1997
+
+创建时间:2023-01-04 11:04
+
+*****************************************************************************************************/
+extensions: .aspx .ascx
+<%-- 
+Copyright (c) 2011 rubicon IT GmbH
+--%>
+extensions: .vb
+'Sample license text.
+extensions:  .xml .config .xsd
+<!--
+Sample license text.
+-->

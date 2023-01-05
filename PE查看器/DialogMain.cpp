@@ -1,6 +1,19 @@
+/****************************************************************************************************
+	
+				PE查看器:
+	
+				版本:1.0
+
+				作者:热饭班长1997
+
+创建时间:2023-01-04 11:04
+
+*****************************************************************************************************/
 #include "DialogMain.h"
 #include "DialogAbout.h"
 #include "DialogPECheak.h"
+#include "DialogAddShell.h"
+#include "DialogDelShell.h"
 
 HWND      ghwndListProcess;
 HWND      ghwndListModule;
@@ -41,6 +54,14 @@ BOOL CALLBACK DialogProc(HWND hDlg, UINT uMsg, WPARAM wParam, LPARAM lParam)
             break;
         case IDC_BUTTON_PECHEAK:
             CreateDialogPECheak();
+            return TRUE;
+            break;
+        case IDC_BUTTON_ADDSHELL:
+            CreateDialogAddShell();
+            return TRUE;
+            break;
+        case IDC_BUTTON_DELSHELL:
+            CreateDialogDelShell();
             return TRUE;
             break;
         default:
